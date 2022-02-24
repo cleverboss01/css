@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    background-color: #c6c9f3;
+    font-size: 20px;
+    line-height: 1.5em;
+}
+
+.container {
+    display: flex;
+    background-color: #656ef5;
+    justify-content: space-between;
+}
+
+.navbar {
+    margin-bottom: 300px;
+    padding: 30px;
+}
+
+.list ul {
+    list-style-type: none;
+    display: flex;
+    width: 700px;
+    text-align: center;
+}
+
+.list ul a {
+    color: #fff;
+    text-decoration: none;
+    padding-left: 30px;
+    font: 800 solid white ;
+    opacity: 0.7;
+}
+
+.list ul a:hover{
+    opacity: 1;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.container img {
+    width: 150px;
+    height: 100px;
+}
+
+section {
+    padding-top: 2em;
+}
+
+.submit-btn {
+    background-color: #69e734;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+}
+
+.reset-btn {
+    background-color: #ce2f26;
+    padding: 10px;
+    border-radius: 10%;
+    display: flex;
+}
+
+input {
+    width: 300px;
+    height: 30px;
+
+}
+
+input:focus{
+    background-color: #c2eaef;
+    width: 400px;
+    border: none;
+}
